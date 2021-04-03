@@ -45,8 +45,33 @@
 
 // --ФУНКЦИИ--
 
-let calc = function(a, b) {
-    let sum = (a + b)
-    console.log(sum);
-}
-calc(4, 4)
+// function calcFunction(a, b) {
+//     return (a + b);
+// }
+// console.log(calc(5, 6));
+
+// const calcFunction2 = function(a, b) {
+//     let num = (a + b);
+//     return num;
+// }
+// const calcCall = calcFunction2(6, 5);
+// console.log(calcCall);
+
+// const calcFunction3 = (a, b) => {
+//     let num = (a + b); 
+//     return num;
+// }
+// console.log(calcFunction3(3, 9));
+
+// --МЕТОДЫ И СВОЙСТВА--
+
+// const logg = 'Hello, you look cool'
+// console.log(logg.slice(7, 20).toUpperCase());
+// console.log(logg.substr(7, 13));
+
+// const num = 12.5;
+// console.log(Math.round(num));
+
+// const testNum = "12.6"
+// console.log(parseInt(testNum));
+// console.log(parseFloat(testNum));
