@@ -116,21 +116,21 @@
 
 // --ОБЪЕКТЫ И ДЕСТРУКТУРИЗАЦИЯ--
 
-const options = {
-    name: 'test',
-    width: 1024,
-    height: 1024,
-    colors: {
-        border: 'black',
-        bg: 'red'
-    },
-    makeTest: function() { //--Метод в объекте (функция)
-        console.log('Test');
-    }
-};
+// const options = {
+//     name: 'test',
+//     width: 1024,
+//     height: 1024,
+//     colors: {
+//         border: 'black',
+//         bg: 'red'
+//     },
+//     makeTest: function() { //--Метод в объекте (функция)
+//         console.log('Test');
+//     }
+// };
 
-const {border, bg} = options.colors; //--Деструктуризация объектов
-console.log(border);
+// const {border, bg} = options.colors; //--Деструктуризация объектов
+// console.log(border);
 
 // options.makeTest(); //--Вызов Метода (функции в объекте)
 
@@ -139,16 +139,16 @@ console.log(border);
 // delete options.name; //--Удаление свойства в объекте
 // console.log(options);
 
-let counter = 0;
-for (let key in options) {
-    if (typeof (options[key]) === 'object') {
-        for (let i in options[key]) {
-            console.log(`У свойства ${i} значение: ${options[key][i]}`);
-            counter++;
-        }
-    } else {
-        console.log(`У свойства ${key} значение: ${options[key]}`);
-        counter++;
-    }
-}
-console.log(counter);
+// let counter = 0;
+// for (let key in options) {
+//     if (typeof (options[key]) === 'object') {
+//         for (let i in options[key]) {
+//             console.log(`У свойства ${i} значение: ${options[key][i]}`);
+//             counter++;
+//         }
+//     } else {
+//         console.log(`У свойства ${key} значение: ${options[key]}`);
+//         counter++;
+//     }
+// }
+// console.log(counter);
