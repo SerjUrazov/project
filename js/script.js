@@ -75,7 +75,7 @@
 // function calcFunction(a, b) {
 //     return (a + b);
 // }
-// console.log(calc(5, 6));
+// console.log(calcFunction(5, 6));
 
 // const calcFunction2 = function(a, b) {
 //     let num = (a + b);
